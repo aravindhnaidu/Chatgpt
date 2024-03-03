@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.chat-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-image:url(https://www.getfoundquick.com/wp-content/uploads/2023/01/shutterstock_1633125442-scaled.jpg);
+    background-size:cover;
+}
+
+#chat-box {
+    color: yellow;
+    height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  }
+#user-input {
+    width: calc(100% - 70px);
+    padding: 8px;
+    margin-right: 5px;
+    color:rgb(0, 255, 255);
+    background-color: rgba(0,0,0, 0.60); /* Black w/opacity/see-through */
+}
+
+button {
+    padding: 8px 35px;
+    background-color: #f3f8fd;
+    border: none;
+    border-radius: 5px;
+    color:#000000;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cb1010;
+
+}
